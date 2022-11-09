@@ -9,6 +9,10 @@
     background-position: center;
     background-size:cover ;
 }
+button:hover{
+    transition: all 400ms ease;
+    background-color: gray;
+}
 .container{
     margin-left: 100px; ;
     margin-right: 100px;
@@ -121,6 +125,7 @@ nav ul li a{
 }
 .offers-text{
     text-align: right;
+    padding-right: 70px;
 }
 
 .about-left-col{
@@ -414,12 +419,12 @@ display: flex;
     .course-left-col,.course-right-col{
         flex-basis: 100%;
     }
-.contact-right-col img{
-    width: 100%;
-}
-form input{
-    width: 70%;
-}
+    .contact-right-col img{
+        width: 100%;
+    }
+    form input{
+        width: 70%;
+    }
     /* .contact-right-col img{
         width: 200%;
     }
